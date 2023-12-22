@@ -1,4 +1,4 @@
-<h1 align="center">FIX FunPay Cardinal</h1>
+<h1 align="center"> FunPay bot</h1>
 <h4 align="center">Консольное приложение для автоматизации рутинных действий на FunPay</h4>
 
 ## :clipboard: **Содержание**
