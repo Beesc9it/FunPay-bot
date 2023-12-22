@@ -13,7 +13,6 @@
   - [Для разработчиков](#computer-для-разработчиков)
 
 - [Установка](#robot-установка)
-  - [Linux (Ubuntu)](#hotsprings-linux-ubuntu)
   - [Windows](#window-windows) 
 - [Настройка конфигов](#hammer_and_wrench-настройка-конфигов)
 - [Установка плагинов](#electric_plug-установка-плагинов)
