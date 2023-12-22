@@ -66,38 +66,7 @@
 - Поддержка лично от меня :)
 ------------------------------------------
 ## :robot: Установка 
-## :hotsprings: Linux (Ubuntu)
 
-## :arrow_down: Автоматическая Установка
-
-1. Вводим в консоль `wget https://raw.githubusercontent.com/menleev/FixFunpayCardinal/main/autoinstaller.sh`
-2. Вводим `chmod +x autoinstaller.sh`
-3. Запускаем `sh autoinstaller.sh` или `sh ./autoinstaller.sh`
-4. Ждём установки (если консоль не идёт дальше, прочтите что указано ниже и нажмите `Enter` или если написанно `Yes/No` то нажимаем на `Y`)
-5. После окончания загрузки, входим в окно введя команду `screen -x funpay` (чтобый выйти из окна нажимаем сочетание клавиш `CTRL + A + D`)
-
-### :arrow_down: Ручная Установка
-
-1. Введите следующие команды для установки Python 3.11.
-   1. `sudo apt update`
-   2. `sudo apt install software-properties-common`
-   3. `sudo add-apt-repository ppa:deadsnakes/ppa`
-   4. `sudo apt update`
-   5. `sudo apt install python3.11 python3.11-dev python3.11-gdbm python3.11-venv`
-   6. `sudo apt install curl`
-   7. `sudo apt install gcc`
-   8. `curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11`
-
-2. Скачиваем `screen` для создания окна для скрипта `apt install screen` (чтобы он работал даже после выхода с сервера)
-   1. Создавать сеанс `screen -S funpay` (-S - создает окно, funpay - название нашего окна)
-   2. Чтобы выйти из окна нажимаем сочитание клавиш `CTRL + A + D`
-   3. Чтобы войти в окно, вводим `screen -x funpay`
-4. Скачайте `git` с помощью команды `sudo apt install git`.
-5. Скачайте FunPayCardinal с помощью команды `git clone https://github.com/menleev/FixFunpayCardinal.git`.
-6. Перейдите в папку `FixFunPayCardinal` с помощью команрды `cd FixFunPayCardinal`.
-7. Установите нужные пакеты с помощью команды `python3.11 setup.py`.
-8. Настройте конфиги и запустите FunPay Cardinal с помощью команды `python3.11 main.py`.
-------------------------------------------
 ### :window: Windows
 
 1. Скачиваем Python `https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe`.
@@ -112,8 +81,10 @@
    6.1 Открываем `cmd` и вписываем путь до папки `cd путь до папки` если у вас другой диск то вписываем название диска пример: `d:` и опять указываем путь.
 
    6.2 Вводим команду `python3.11 setup.py` или `py setup.py` для установки нужных пакетов.
+   
+   7. Заходим в папку `configs`
 
-7. Настройте конфиги и запустите FixFunPayCardinal с помощью команды `python3.11 main.py` или `py main.py` или запустите `start.bat`.
+8. Настройте конфиги и запустите FixFunPay_bot с помощью команды `python3.11 main.py` или `py main.py` или запустите `start.bat`.
 ------------------------------------------
 ## :hammer_and_wrench: Настройка конфигов
 
