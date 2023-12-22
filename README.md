@@ -96,7 +96,7 @@
 
    7.2 Указываем - в [Telegram] `token`, `secretKey`
    
-   Бот для тг создаем в: `https://t.me/BotFather` и получаем токен бота
+   Бот для тг создаем в:
 
        https://t.me/BotFather и получаем токен бота
   (формат пример: `3476237846:lifgdusho8UGHF3ru8i4ygh4iughvewhgewt` - полностью!!!)
