@@ -86,7 +86,7 @@
 
    7.1 Указываем следующие - в [FunPay] `golden_key`, `user_agent`
    
-         Расширение для получения `golden_key голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`):
+   Расширение для получения `golden_key голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`):
   `https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=ru`
 
     Ваш юзер агент можно получить тут: `https://whatmyuseragent.com/` (нажмите на `copy`)
