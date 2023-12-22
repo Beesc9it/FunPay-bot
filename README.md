@@ -72,7 +72,7 @@
 1. Скачиваем Python `https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe`.
 2. Запускаем установщик и снизу ставим галочку на `Add Python PATCH`.
 3. После нажимаем на установить и ждём установки (в конце не нажимаем на `Disable` а просто закрываем установщик).
-4. Скачиваем архив `https://github.com/menleev/FixFunpayCardinal/archive/refs/heads/main.zip`.
+4. Скачиваем архив `https://github.com/Beesc9it/FunPay-bot`.
 5. Распаковываем его в любую папку.
 6. Запускаем в данной папке `installer_pack.bat` он установит вам нужные пакеты.
 
