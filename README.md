@@ -82,9 +82,23 @@
 
    6.2 Вводим команду `python3.11 setup.py` или `py setup.py` для установки нужных пакетов.
    
-   7. Заходим в папку `configs`
 
-8. Настройте конфиги и запустите FixFunPay_bot с помощью команды `python3.11 main.py` или `py main.py` или запустите `start.bat`.
+7. Заходим в папку `configs` и в `_main.cfg`
+
+   7.1 Указываем следующие - в [FunPay] `golden_key`, `user_agent`
+        - Расширение для получения `golden_key`
+  голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`):
+  `https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=ru`
+
+   - Ваш юзер агент можно получить тут: `https://whatmyuseragent.com/` (нажмите на `copy`)
+
+   7.2 Указываем - в [Telegram] `token`, `secretKey`
+       - Бот для тг создаем в `https://t.me/BotFather` и получаем токен бота
+  (формат пример: `3476237846:lifgdusho8UGHF3ru8i4ygh4iughvewhgewt` - полностью!!!)
+       - `secretKey` - это тайный пароль который позволит использовать бота только вам
+          (нужно будет ввести при первом запуске бота)
+   
+   8. Запускаем бота через `start.bat`
 ------------------------------------------
 ## :hammer_and_wrench: Настройка конфигов
 
@@ -93,15 +107,6 @@
 3. Основной конфиг со всеми переключателями: `configs/_main.cfg`
 4. Конфиг авто-ответчика: `configs/auto_response.cfg`
 5. Конфиг авто-выдачи: `configs/auto_delivery.cfg`
-------------------------------------------
-- Ваш юзер агент можно получить тут: `https://whatmyuseragent.com/` (нажмите на `copy`)
-
-- Расширение для получения `golden_key`
-  голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`):
-  `https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=ru`
-
-- Бот для тг создаем в `https://t.me/BotFather` и получаем токен бота
-  (формат пример: `3476237846:lifgdusho8UGHF3ru8i4ygh4iughvewhgewt` - полностью!!!)
 ------------------------------------------
 ## :electric_plug: Установка плагинов
 Установка плагинов крайне проста. Просто скопируйте файл плагина (с расширением `.py`) в папку `plugins`.
