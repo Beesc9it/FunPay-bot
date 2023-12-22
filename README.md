@@ -85,6 +85,7 @@
 7. Заходим в папку `configs` и в `_main.cfg`
 
    7.1 Указываем следующие - в [FunPay] `golden_key`, `user_agent`
+   
         - Расширение для получения `golden_key`
   голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`):
   `https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=ru`
@@ -92,8 +93,10 @@
    - Ваш юзер агент можно получить тут: `https://whatmyuseragent.com/` (нажмите на `copy`)
 
    7.2 Указываем - в [Telegram] `token`, `secretKey`
+   
        - Бот для тг создаем в `https://t.me/BotFather` и получаем токен бота
   (формат пример: `3476237846:lifgdusho8UGHF3ru8i4ygh4iughvewhgewt` - полностью!!!)
+  
        - `secretKey` - это тайный пароль который позволит использовать бота только вам
           (нужно будет ввести при первом запуске бота)
    
